@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+nav {
+  box-sizing: border-box;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: #007cbd;
+  padding: 15px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  align-self: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-item {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.Hero {
+  top: 0;
+  height: 1024px;
+  background-image: url("./Picture/heroBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.Hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.Hero p {
+  font-size: 14px;
+  font-weight: 600;
+  width: 75%;
+}
+
+.headline {
+  text-align: center;
+  max-width: 73%;
+}
+
+.headline-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Hero button {
+  background-color: #3eb7dd;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 16px 20px 16px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.about {
+  height: 420px;
+  padding: 100px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 35px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-content h4 {
+  color: #007cbd;
+  font-size: 20px;
+  font-weight: 700;
+}
+.about-content p {
+  color: #1b1e28;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.about-media {
+  display: flex;
+  gap: 16px;
+}
+
+.about-media a {
+  display: flex;
+  color: #007cbd;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.about-media img {
+  width: 21px;
+  height: 21px;
+}
