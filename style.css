@@ -5,6 +5,7 @@
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: white;
+  box-sizing: border-box;
 }
 
 nav {
@@ -78,7 +79,7 @@ nav img {
   gap: 30px;
 }
 
-.Hero button {
+button {
   background-color: #3eb7dd;
   font-size: 14px;
   font-weight: 800;
@@ -218,4 +219,54 @@ h6 {
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
+}
+
+.runningLogo {
+  overflow: hidden;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #f4fbff;
+}
+
+.runningLogo h5 {
+  color: #007cbd;
+  font-size: 18px;
+  font-weight: 700;
+  max-width: 45%;
+  text-align: center;
+}
+
+.runningLogoImg {
+  align-self: flex-start;
+  overflow: hidden;
+  gap: 20px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.runningLogoImg:hover .logo-slide {
+  animation-play-state: paused;
+}
+
+.logo-slide {
+  display: inline-block;
+  animation: 10s slide infinite linear;
+  overflow: hidden;
+}
+
+.logo-slide img {
+  margin: 10px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
