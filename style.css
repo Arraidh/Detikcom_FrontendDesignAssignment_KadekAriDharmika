@@ -130,3 +130,92 @@ nav img {
   width: 21px;
   height: 21px;
 }
+
+.mechanism {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1000px;
+  background-image: url("./Picture/mechanismBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mechanism-body {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.mechanism h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.mechanism li {
+  color: #1b1e28;
+}
+
+.mechanism h4,
+h6 {
+  color: #007cbd;
+}
+
+.mechanism-card {
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 50px;
+  transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
+}
+
+.mechanism-card:hover {
+  box-shadow: 0 5px 10px white;
+  transform: translate(0px, -5px);
+}
+
+.mechanism-card img {
+  align-self: start;
+}
+
+.mechanism-card ol {
+  list-style-position: outside;
+}
+
+.mechanism-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-header {
+  font-size: 19px;
+}
+
+.card-header h4 {
+  font-weight: 700;
+}
+
+.card-header h6 {
+  font-weight: 500;
+}
+
+.mechanism-content {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
