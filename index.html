@@ -8,15 +8,25 @@
   </head>
   <body>
     <nav>
-      <img src="./Picture/navbar/Navbar Brand.png" class="navbarBrand" alt="" />
+      <a href="./"
+        ><img
+          src="./Picture/navbar/Navbar Brand.png"
+          class="navbarBrand"
+          alt=""
+      /></a>
       <ul class="nav-menu">
-        <li class="nav-item">About</li>
-        <li class="nav-item">Mechanism</li>
-        <li class="nav-item">Latest Update</li>
-        <li class="nav-item">Register</li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#mechanism">Mechanism</a></li>
+        <li class="nav-item"><a href="#aggregator">Latest Update</a></li>
+        <li id="nav-item-register"><a href="./register.html">Register</a></li>
       </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </nav>
-    <section class="Hero">
+    <section class="Hero" id="Hero">
       <div class="headline">
         <div class="headline-text">
           <h4>Detikfinance Business Plan Competition 2023</h4>
@@ -30,7 +40,7 @@
         </div>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-video">
         <img src="./Picture/about/aboutVideo.png" alt="" />
       </div>
@@ -52,7 +62,7 @@
         </div>
       </div>
     </section>
-    <section class="mechanism">
+    <section class="mechanism" id="mechanism">
       <div class="mechanism-body">
         <h1>Mekanisme</h1>
         <div class="mechanism-card">
@@ -125,7 +135,7 @@
         </div>
       </div>
     </section>
-    <section class="runningLogo">
+    <section class="runningLogo" id="runningLogo">
       <h5 class="runningLogoHeader">
         Dapatkan Kesempatan Dilirik oleh Venture Capital / Angel Investor Serta
         Menjadi Narasumber di Detikfinance
@@ -154,7 +164,7 @@
       </div>
       <button class="runningLogoBtn">Daftarkan startup kamu</button>
     </section>
-    <section class="aggregator">
+    <section class="aggregator" id="aggregator">
       <div class="aggregator-content">
         <h2>LATEST UPDATE</h2>
         <div class="aggregator-card-list">
@@ -226,5 +236,6 @@
       <hr />
       <span>© 2023 Detikcom. All rights reserved</span>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>

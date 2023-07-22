@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="./"
+        ><img
+          src="./Picture/navbar/Navbar Brand.png"
+          class="navbarBrand"
+          alt=""
+      /></a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#mechanism">Mechanism</a></li>
+        <li class="nav-item"><a href="#aggregator">Latest Update</a></li>
+        <li id="nav-item-register"><a href="./register.html">Register</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <section class="register">
+      <h1>Register</h1>
+      <form action="" id="register-form">
+        <input type="text" name="name" placeholder="Nama Perusahaan" value="" />
+        <input type="text" name="email" placeholder="Email" value="" />
+        <div class="input-with-note">
+          <input type="number" placeholder="Nomor Telepon" value="" />
+          <p class="side-note">Isi hanya angka</p>
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Tentang Perusahaan (Max. 200 character)"
+        ></textarea>
+        <div class="logo-input">
+          <div id="logo-input-container">
+            <input type="file" accept="image/*" hidden id="input-file-logo" />
+            <button>
+              <img src="./Picture/register/inputLogoButton.svg" alt="" />
+            </button>
+            <label for="input-file-logo">Upload file logo*</label>
+          </div>
+          <ol class="logo-instruction">
+            <li>Format file: .png, .jpg, .jpeg</li>
+            <li>Maksimal ukuran file 200KB</li>
+            <li>Hindari penggunaan logo berwarna putih</li>
+            <li>Minimal lebar 300px</li>
+          </ol>
+        </div>
+        <div class="input-with-note">
+          <div class="company-profile-input">
+            <input
+              type="file"
+              placeholder="Profil Perusahaan atau Deck (opsional)"
+              id="company-profile-input"
+              hidden
+            />
+            <label for="company-profile-input"
+              >Profil Perusahaan atau Deck (opsional)</label
+            >
+            <button>Upload File</button>
+          </div>
+          <p class="side-note">Format file .pdf , maksimal size 20mb</p>
+        </div>
+        <div class="input-with-note">
+          <input type="text" name="" id="" placeholder="Link website" />
+          <p class="side-note">Isi hanya angka</p>
+        </div>
+        <label class="container">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+          Dengan menekan tombol "Daftar", Saya menyetujui syarat dan ketentuan
+          yang berlaku
+        </label>
+        <button id="submit-register">Register</button>
+      </form>
+    </section>
+    <footer>
+      <img src="./Picture/footer/footerLogo.svg" alt="" />
+      <div class="brand-media">
+        <p>
+          Detikfinance memberikan ruang kepada para startup di Indonesia untuk
+          menunjukkan, serta mempromosikan brand mereka untuk mendapatkan
+          perhatian dari venture capital atau angel investor
+        </p>
+        <div class="sosmed-logo">
+          <img src="./Picture/footer/twitter.svg" alt="" />
+          <img src="./Picture/footer/instagram.svg" alt="" />
+          <img src="./Picture/footer/facebook.svg" alt="" />
+        </div>
+      </div>
+      <hr />
+      <span>© 2023 Detikcom. All rights reserved</span>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
