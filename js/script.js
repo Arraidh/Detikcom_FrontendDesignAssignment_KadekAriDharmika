@@ -38,3 +38,40 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
 });
+
+const registerBtn = document.querySelectorAll(".register-button");
+const registerLink = document.getElementById("nav-item-register-btn");
+
+registerBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    registerLink.click();
+  });
+});
+
+// Set Latest Update Card
+// Using the Fetch API to get data from the JSON file
+const updateCardContainer = document.querySelector(".aggregator-card-list");
+fetch("./data.json")
+  .then((response) => response.json()) // Parse the response as JSON
+  .then((data) => {
+    console.log(data);
+    for (item in data.update) {
+      console.log(item);
+      updateCardContainer.innerHTML += `
+      <div class="aggregator-card">
+            <div
+              class="aggregator-card-image"
+              id="${data.update[item].id}"
+            ></div>
+            <h5>
+              ${data.update[item].title}
+            </h5>
+            <span>${data.update[item].time}</span> 
+      </div>`;
+      const currentCard = document.getElementById(data.update[item].id);
+      currentCard.style.backgroundImage = `url('${data.update[item].image}')`;
+    }
+  })
+  .catch((error) => {
+    console.error("Error fetching data:", error);
+  });

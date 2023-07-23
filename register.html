@@ -10,14 +10,16 @@
     <nav>
       <a href="./"
         ><img
-          src="./Picture/navbar/Navbar Brand.png"
+          src="./Picture/navbar/Navbar Brand.svg"
           class="navbarBrand"
           alt=""
       /></a>
       <ul class="nav-menu">
-        <li class="nav-item"><a href="#about">About</a></li>
-        <li class="nav-item"><a href="#mechanism">Mechanism</a></li>
-        <li class="nav-item"><a href="#aggregator">Latest Update</a></li>
+        <li class="nav-item"><a href="index.html#about">About</a></li>
+        <li class="nav-item"><a href="index.html#mechanism">Mechanism</a></li>
+        <li class="nav-item">
+          <a href="index.html#aggregator">Latest Update</a>
+        </li>
         <li id="nav-item-register"><a href="./register.html">Register</a></li>
       </ul>
       <div class="hamburger">
@@ -68,7 +70,7 @@
             <label for="company-profile-input"
               >Profil Perusahaan atau Deck (opsional)</label
             >
-            <button>Upload File</button>
+            <button id="upload-company-profile-btn">Upload File</button>
           </div>
           <p class="side-note">Format file .pdf , maksimal size 20mb</p>
         </div>
@@ -102,6 +104,7 @@
       <hr />
       <span>© 2023 Detikcom. All rights reserved</span>
     </footer>
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/register.js"></script>
   </body>
 </html>

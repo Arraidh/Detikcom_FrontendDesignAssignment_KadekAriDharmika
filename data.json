@@ -1,0 +1,39 @@
+{
+  "update": [
+    {
+      "id": "update0",
+      "image": "./Picture/aggregator/update0.png",
+      "title": "Alpha JWC Ventures Suntikkan Dana Segar kepada OnlinePajak dan Stoqo",
+      "time": "1 hari yang lalu"
+    },
+    {
+      "id": "update2",
+      "image": "./Picture/aggregator/update1.png",
+      "title": "Startup Lifepack Rampungkan Pendanaan Seri A yang Dipimpin Golden Gate Ventures",
+      "time": "1 hari yang lalu"
+    },
+    {
+      "image": "./Picture/aggregator/update2.png",
+      "title": "Angel Investor Adalah? Berikut Jenis, Contoh dan Cara Mendapatkannya",
+      "time": "1 hari yang lalu"
+    },
+    {
+      "id": "update3",
+      "image": "./Picture/aggregator/update3.png",
+      "title": "Crowe Indonesia Gelar Diskusi terkait Valuasi Startup & Laporan ESG",
+      "time": "1 hari yang lalu"
+    },
+    {
+      "id": "update4",
+      "image": "./Picture/aggregator/update4.png",
+      "title": "Startup Fresh Factory Bangun Ratusan Gudang Dingin di 103 Kota",
+      "time": "1 hari yang lalu"
+    },
+    {
+      "id": "update5",
+      "image": "./Picture/aggregator/update5.png",
+      "title": "Startup Pertanian RI Dapat Pendanaan Awal, Totalnya Rp 90 M",
+      "time": "1 hari yang lalu"
+    }
+  ]
+}
